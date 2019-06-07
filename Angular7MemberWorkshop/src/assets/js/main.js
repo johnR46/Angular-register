@@ -1,6 +1,6 @@
 "use strict";
-var App = {
-	initialLoadPage(){
+let App = {
+	initialLoadPage:function(){
 		var treeviewMenu = $('.app-menu');
 
 		// Toggle Sidebar
