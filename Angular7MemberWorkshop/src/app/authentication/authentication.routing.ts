@@ -4,8 +4,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 const RouteList: Routes = [
-    { path: '', redirectTo: AuthURL.dashboard, pathMatch: 'full' },
-    {path:AuthURL.dashboard,component:DashboardComponent}
+    { path: '', redirectTo: AuthURL.Dashboard, pathMatch: 'full' },
+    {path:AuthURL.Dashboard,component:DashboardComponent}
 ];
 
 export const AuthenticationRouting = RouterModule.forChild(RouteList); // forChild ไว้ต่อ url ข้างหลัง 
